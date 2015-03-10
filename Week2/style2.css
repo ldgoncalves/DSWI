@@ -1,0 +1,13 @@
+p {
+	color: cyan;
+}
+
+#special {
+	background-color: red;
+	color: yellow;
+}
+
+p {
+	background-color: yellow;
+	color: black;
+}
