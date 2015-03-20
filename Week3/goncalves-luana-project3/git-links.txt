@@ -1,3 +1,3 @@
 https://github.com/ldgoncalves/DSWI.git
 
-http://ldgoncalves.github.io/DSWI/Week2/goncalves-luana-project2/index.html
+http://ldgoncalves.github.io/DSWI/Week3/goncalves-luana-project3/index.html
