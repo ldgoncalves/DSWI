@@ -56,20 +56,15 @@ h3{
 	width: 280px;
 	float: left;
 	margin: 10px;
-	
 	}
-	
-
-
-
-	
+		
 a {
 	color: #000000;
 	text-transform: uppercase;
 	text-decoration: none;
 	}
 	
-a:hover, a#current-page {
+a:hover, #current-page {
 	color: #cc3333;
 	background-color: #ffffff;
 	}

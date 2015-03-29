@@ -88,7 +88,7 @@ nav {
 	border-top: 2px solid #12203F;
 	border-bottom: 1px solid #12203F;
 	padding: .938px;
-	margin: 0 auto;
+	margin: auto;
 }
 
 nav ul{
@@ -97,7 +97,7 @@ nav ul{
 
 nav li {
 	display: inline;
-	margin-right: 2%
+	margin-right: 2%;
 }
 
 /* main content */
