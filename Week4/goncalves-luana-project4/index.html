@@ -23,10 +23,10 @@
 				<li><a href="#where">Where to Buy or Rent?</a></li>
 			</ul>
 			</nav><!-- end of navigation -->
-			</header><!-- end header -->
-		<section class="content"> <!-- start of main content -->
-			<!-- start of first tab -->
+		</header><!-- end header -->
+		<!-- start of main content -->
 			<article>
+				<!-- start of first tab -->
 				<h2 id="what">What is SUP?</h2>
 				<p><strong>Stand up paddle surfing</strong> and <strong>stand up paddle 	boarding</strong> (SUP), (<em>Hoe he'e nalu</em> in the Hawaiian language) are sports originating in Hawaii as an off-shoot of surfing. They enable surfers to paddle farther into the ocean than is typical or to paddle standing up as a sport unto itself. A 2013 report called it the outdoor sporting activity with the most first-time participants of any in the United States that year.[1] Paddlers race on lakes, large rivers and canals, ride breaking waves, and glide over long distances along sea coasts, often using tail winds to aid the trip.</p>
 				<p>Stand up paddlers wear a variety of wet suits and other clothing, depending on both water and air temperature since most of their time is spent standing on the board.</p>
@@ -119,8 +119,7 @@
 				<p>Can’t afford one at the moment? Try renting one! Check out local deals on <a href="http://www.groupon.com" target="_blank">Groupon</a> or <a href="http://www.livingsocial.com" target="_blank">Living Social</a> in your area.</p> 
 				<!-- end of fourth tab -->
 				<p class><a href="#top">Back to the Top</a></p>
-			</article> 
-		</section><!-- end of main content -->
+			</article><!-- end of main content -->
 			
 		<aside>
 			<!-- start of gallery -->
@@ -167,47 +166,38 @@
 			<section class="form">
 				<h3 class="one"> Contact Us </h3>
 				<form action="http://www.example.com/contact.php" method="post">
-				<div>
-					<label class="title"> First Name:
-						<input type="text" name="first name" maxlength="30" required="required" />
-					</label>
-				</div>
-				<div>
-					<label class="title"> Last Name:
-						<input type="text" name="last name" maxlength="30" required="required" />
-					</label>
-				</div>
-				<div>
-					<label class="title"> Email:
-						<input type="email" name="email" required="required"/>
-					 </label>
-				</div>
-				<div>
-					<label class="title"> Contact Purpose: 
-						<select name="purpose" required="required">
-							<option value="general">General</option>
-							<option value="complaint">Complaint</option>
-							<option value="more information">More Information</option>
-							<option value="share a story">Share a Story</option>
+					<div>
+						<label for="firstname" class="title"> First Name:</label>
+						<input type="text" name="firstname" id="firstname" maxlength="30" required="required" /><br />
+					
+						<label for="lastname" class="title"> Last Name:</label>
+						<input type="text" name="lastname" id="lastname" maxlength="30" required="required" /><br />
+						
+						<label for="email" class="title"> Email: </label>
+						<input type="email" name="email" id="email" required="required"/>
+					 </div>
+					 <div>
+						<label for="purpose" class="title"> Contact Purpose: </label>
+						<select name="purpose" id="purpose">
+							<option value="1">General</option>
+							<option value="2">Complaint</option>
+							<option value="3">More Information</option>
+							<option value="4">Share a Story</option>
 						</select>
-					</label>
-				</div>
-				<div>
-					<label class="title"> Subject:
-						<input type="text" name="subject" maxlength="60" required="required" />
-					</label>
-				</div>
-				<div>
-					<label class="title"> Comment:
-						<textarea name="comments" placeholder="Enter your comments..." cols="50" rows="10"></textarea>
-					</label>
-				</div>
-				<div>
-					<label class="title"> Would you like to subscribe to our newsletter? <br />
-						<input type="radio" name="newsletter" value="yes" checked="checked" /> Yes
-					 <input type="radio" name="newsletter" value="No" /> No </label>
-				</div> 
-				<div class="submit">
+					</div>
+					<div>
+						<label for="subject" class="title"> Subject:</label>
+						<input type="text" name="subject" id="subject" maxlength="60" required="required" /><br />
+					
+						<label for="comment" class="title"> Comment:</label>
+						<textarea name="comment" id="comment" placeholder="Enter your comments..." cols="50" rows="10"></textarea>
+					</div>
+					<div>
+						<label for="newsletter" class="title"> Would you like to subscribe to our newsletter?</label><br />
+						<p> <input type="radio" name="newsletter" id="newsletter" value="yes" checked="checked" /> Yes
+					 	<input type="radio" name="newsletter" value="No" /> No</p> 
+					 </div>
+				<div id="submit">
 						<input type="submit" name="submit" value="Submit" />
 				</div>
 				</form>	
